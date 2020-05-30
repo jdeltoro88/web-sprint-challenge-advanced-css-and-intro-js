@@ -27,8 +27,17 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 3. How would you explain the concept of a variable to someone new to programming?
 4. What is the purpose of using functions in code?
 5. What is JSON data?
+Preprocessing is a more robust syntax for css written in less and compiled w javascript.
 
+
+Preprocessing seems less crowded and in my head easier to understand. Why would I list a bunch of information when I can just compile it in variables to be used again. Anything javascript right now is really hard for me. Mathematic operators in specific. The syntax is very picky and its hard to see what is going on in some functions.
+
+Variables in less? Or variables in javascript?  They both hold data to be stored and used.
+
+Functions let developers use a bunch of code by invoking it in a single line. We can write the instructions on how to do something that can take up a whole page a function is all of that page in one command.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
+
+json is the transmission of net data between user and server 
 
 ## Instructions
 
