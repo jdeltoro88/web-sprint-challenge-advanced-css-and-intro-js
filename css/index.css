@@ -21,13 +21,13 @@ vertical-align: baseline;
 }
 /*GENERAL STYLES*/
 
-@media (max-width: 500px) {
-    header nav body{
-    display: flex;
-    justify-content:  center;
-    flex-direction: column;
-    }
-}
+
+
+    
+
+   
+    
+
 
 
 
