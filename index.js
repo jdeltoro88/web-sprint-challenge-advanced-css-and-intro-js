@@ -211,7 +211,8 @@ const artists = [
 console.log (artists[0].name);
 console.log (artists[2].bio);
 
-/* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
+/* Task 2: There is a typo in your dataset 😱 The 9th artist, 
+Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 
 artists[8].name = 'Vinvent Van Gogh';
 console.log (artists[8].name);
@@ -260,12 +261,17 @@ console.log(get20s(artists));
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset and log the number 19. 
  * 
- * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
+ * Note that sucessfully invoking this function multiple times without refreshing your 
+ * browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
-function removeArtist(artists,b ) {
-    /* code here */
-  }
+
+function removeArtist(data,index ) {
+data.splice(index, 1);
+return data.length;
   
+}
+
+  console.log(removeArtist(artists, 0));
   /**
 
 
