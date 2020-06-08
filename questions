@@ -2,7 +2,7 @@ Preprocessing is a more robust syntax for css written in less/sass and compiled 
 
 
 Preprocessing seems less crowded and in my head easier to understand. 
-Why would I list a bunch of information when I can just compile it in variables to be used again. 
+
 
 Anything javascript right now is really hard for me. Mathematic operators in specific. 
 The syntax is very picky and its hard to see what is going on in some functions.
